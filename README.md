@@ -35,7 +35,7 @@ Desenvolver uma aplicação HTML5.
 
 
 ### Base de Wireframe
-[Wireframe](https://www.figma.com/proto/8PgmEzgqXUzLufhzExa6S3/teste-frontend?node-id=2%3A766&scaling=min-zoom&page-id=2%3A765&starting-point-node-id=2%3A766)
+[Wireframe](/wireframe/wireframe.png)
 
 ## O que será avaliado?
 - Organização do projeto
