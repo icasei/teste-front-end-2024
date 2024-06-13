@@ -14,13 +14,18 @@ Desenvolver uma aplicação HTML5.
   - [Next.js](https://nextjs.org/)
   - [Ruby](https://www.ruby-lang.org/pt/)
   - Qualquer outra linguagem back end também será aceita
-- Utilizar diretrizes do [Google Material Design](https://material.io/develop/web)
+
 - Utilizar a [API de busca do YouTube](https://developers.google.com/youtube/v3/docs/search/list)
 - Mobile first e responsivo
-- Usar framework JS (React, Vue, Angular ou frameworks relacionados)
+- Não utilizar framework JS (React, Vue, Angular ou frameworks relacionados)
 - Cores livres, layout livre, imagens livres
 - Gitflow
-- LESS, SASS ou Styled Components 
+- LESS, SASS ou Styled Components
+- Código deve ser tipado
+- Utilizar microfront para cada aplicação com BFF
+- Utilizar docker para microfronts e BFF
+- Obrigatório testes unitários
+### Obs: Observar padrões e boas práticas de arquitetura 
 
 ## Observações
 - Para consumir os dados desta [API](https://developers.google.com/youtube/v3/docs/search/list), você deve gerar sua api_key de aplicação neste [link](https://developers.google.com/youtube/v3/getting-started?hl=pt-br).
@@ -51,10 +56,8 @@ A partir desse retorno, deve-se montar uma tela contendo embed do video, título
 
 Essa tela deve ter um botão para voltar, exibindo os últimos resultados da busca com a pagina em questão ativa.
 
-### Wireframe
-[Wireframe Mobile](https://www.figma.com/proto/8PgmEzgqXUzLufhzExa6S3/teste-frontend?node-id=2%3A237&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A237)
-
-[Wireframe Desktop](https://www.figma.com/proto/8PgmEzgqXUzLufhzExa6S3/teste-frontend?node-id=2%3A766&scaling=min-zoom&page-id=2%3A765&starting-point-node-id=2%3A766)
+### Base de Wireframe
+[Wireframe](https://www.figma.com/proto/8PgmEzgqXUzLufhzExa6S3/teste-frontend?node-id=2%3A766&scaling=min-zoom&page-id=2%3A765&starting-point-node-id=2%3A766)
 
 ## O que será avaliado?
 - Organização do projeto
