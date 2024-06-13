@@ -30,31 +30,9 @@ Desenvolver uma aplicação HTML5.
 ## Observações
 - Para consumir os dados desta [API](https://developers.google.com/youtube/v3/docs/search/list), você deve gerar sua api_key de aplicação neste [link](https://developers.google.com/youtube/v3/getting-started?hl=pt-br).
 
-## Especificações funcionais
-### Tela Inicial
+## Especificações funcionais da aplicação
 
-Essa tela terá um formulário de login com os campos de nome e e-mail, validar campo de e-mail usando expressão regulares com javascript.
 
-##### OBS: Usuário deve ter acesso a busca de vídeos caso houver sessão criada.
-
-### Tela Busca de vídeos
-
-Exibir no header as informações do usuário que consta na sessão por meio de GET no BFF.
-
-Formulário de busca de vídeos posicionado no meio da tela com campo de texto com placeholder "Pesquisar" e um botão "Buscar". Esse formulário deverá ter validação.
-
-Essa busca deverá chamar no BFF por meio da url https://www.googleapis.com/youtube/v3/search?part=id,snippet&q={termo_de_busca}&key={API_KEY}
-
-Ao fazer a busca, o formulário deve ser movido para o topo da tela usando css animate e mostrar a lista de resultados com os campos título, descrição, thumbnail e um link para a página de detalhes.
-
-Essa página deverá ter paginação com scroll, utilizando os [recursos de paginação da api](https://developers.google.com/youtube/v3/guides/implementation/pagination?hl=pt-br).
-
-### Tela de detalhes
-A partir do videoId retornado na outra chamada, deve ser feito uma chamada para https://www.googleapis.com/youtube/v3/videos?id={VIDEO_ID}&part=snippet,statistics&key={API_KEY}
-
-A partir desse retorno, deve-se montar uma tela contendo embed do video, título, like, deslike, descrição e visualizações.
-
-Essa tela deve ter um botão para voltar, exibindo os últimos resultados da busca com a pagina em questão ativa.
 
 ### Base de Wireframe
 [Wireframe](https://www.figma.com/proto/8PgmEzgqXUzLufhzExa6S3/teste-frontend?node-id=2%3A766&scaling=min-zoom&page-id=2%3A765&starting-point-node-id=2%3A766)
