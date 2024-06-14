@@ -17,7 +17,8 @@ A aplicação MF_DRAWER deve ter dois links, VÍDEOS E FAVORITOS e a aplicação
     - Ao clicar em FAVORITOS, deve exibir a lista de vídeos marcados como favorito.
 
 ### Base de Wireframe
-[Wireframe](/wireframe/wireframe.png)
+[Wireframe vídeos](/wireframe/wireframe_videos.png)
+[Wireframe favoritos](/wireframe/wireframe_favs.png)
 
 ## Especificações tecnicas
 - Ultilizar como sujestão algumas dessas opções para controle de sessão e BFF
