@@ -29,15 +29,15 @@ A aplicação MF_DRAWER deve ter dois links, VÍDEOS E FAVORITOS e a aplicação
   - Qualquer outra linguagem back end também será aceita
 
 - Utilizar a [API de busca do YouTube](https://developers.google.com/youtube/v3/docs/search/list)
-- Desing responsivo
-- Navegação por rotas é requerida
-- Não utilizar framework JS (React, Vue, Angular ou frameworks relacionados)
+- Desing **responsivo**
+- **Navegação por rotas** é requisito obrigatório
+- **Não utilizar** framework JS (React, Vue, Angular ou frameworks relacionados)
 - Cores livres, layout livre, imagens livres
 - CSS nativo ou LESS, SASS e afins são permitidos
-- Código deve ser tipado
-- Utilizar microfront para cada aplicação com BFF
-- Utilizar docker para microfronts e BFF
-- Obrigatório testes unitários
+- Código deve ser **tipado**
+- Utilizar **microfront** para cada aplicação com BFF
+- Utilizar **docker** para microfronts e BFF
+- Obrigatório **testes unitários**
 
 ## Observações
 - Observar padrões e boas práticas de arquitetura 
