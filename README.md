@@ -18,6 +18,7 @@ A aplicação MF_DRAWER deve ter dois links, VÍDEOS E FAVORITOS e a aplicação
 
 ### Base de Wireframe
 [Wireframe vídeos](/wireframe/wireframe_videos.png)
+
 [Wireframe favoritos](/wireframe/wireframe_favs.png)
 
 ## Especificações tecnicas
