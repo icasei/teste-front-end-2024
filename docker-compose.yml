@@ -1,0 +1,11 @@
+version: "3.9" # ou 3.10, dependendo da versão mais recente que seu docker-compose suporta
+services:
+  mf_drawer:
+    build: ./micro-frontend/mf_drawer
+    ports:
+      - "8080:8080"
+
+  mf_videos:
+    build: ./micro-frontend/mf_videos
+    ports:
+      - "8081:8081"

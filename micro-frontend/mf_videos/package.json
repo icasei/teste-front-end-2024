@@ -1,0 +1,11 @@
+{
+  "name": "mf_videos",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {}
+}
