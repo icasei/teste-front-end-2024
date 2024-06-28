@@ -4,15 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MF Drawer</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="drawer">
-      <a href="http://localhost:8081" target="_blank">VÍDEOS</a>
-      <a href="http://localhost:8081?view=favorites" target="_blank"
-        >FAVORITOS</a
-      >
-      <div>Total de Favoritos: <span id="favorites-count">0</span></div>
+    <div class="container">
+      <div class="drawer">
+        <h2>MF_DRAWER</h2>
+        <button onclick="window.location.href='http://localhost:8081'">
+          VÍDEOS
+        </button>
+        <button
+          onclick="window.location.href='http://localhost:8081?view=favorites'"
+        >
+          FAVORITOS
+        </button>
+      </div>
+      <div class="videos">
+        <h2>MF_VIDEOS</h2>
+        <div class="video-grid">
+          <iframe
+            src="../mf_videos/index.html"
+            frameborder="0"
+            width="100%"
+            height="800"
+          ></iframe>
+        </div>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
