@@ -6,15 +6,15 @@ body {
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 20%;
+  /* margin: 0 auto; */
   padding: 20px;
 }
 
 .search-bar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
   margin-bottom: 20px;
 }
 

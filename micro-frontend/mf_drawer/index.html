@@ -5,25 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MF Drawer</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .content {
+        display: none; /* Inicialmente oculto */
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <div class="drawer">
         <h2>MF_DRAWER</h2>
-        <button onclick="window.location.href='http://localhost:8081'">
-          VÍDEOS
-        </button>
-        <button
-          onclick="window.location.href='http://localhost:8081?view=favorites'"
-        >
-          FAVORITOS
-        </button>
+        <button onclick="showVideos()">VÍDEOS</button>
+        <button onclick="showFavorites()">FAVORITOS</button>
       </div>
-      <div class="videos">
+      <div class="videos content" id="videosContent">
         <h2>MF_VIDEOS</h2>
         <div class="video-grid">
           <iframe
-            src="../mf_videos/index.html"
+            src="http://localhost:8081"
+            frameborder="0"
+            width="100%"
+            height="800"
+          ></iframe>
+        </div>
+      </div>
+      <div class="favorites content" id="favoritesContent">
+        <h2>MF_VIDEOS</h2>
+        <h3>Favoritos</h3>
+        <div class="favorite-grid">
+          <iframe
+            src="http://localhost:8081?view=favorites"
             frameborder="0"
             width="100%"
             height="800"
@@ -32,5 +43,16 @@
       </div>
     </div>
     <script src="app.js"></script>
+    <script>
+      function showVideos() {
+        document.getElementById("videosContent").style.display = "block";
+        document.getElementById("favoritesContent").style.display = "none";
+      }
+
+      function showFavorites() {
+        document.getElementById("videosContent").style.display = "none";
+        document.getElementById("favoritesContent").style.display = "block";
+      }
+    </script>
   </body>
 </html>

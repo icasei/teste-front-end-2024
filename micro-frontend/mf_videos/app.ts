@@ -20,7 +20,7 @@ searchButton.addEventListener("click", async () => {
         (item: any) => `
             <div class="video-item">
                 <iframe src="https://www.youtube.com/embed/${item.id.videoId}" frameborder="0" allowfullscreen></iframe>
-                <button onclick="toggleFavorite('${item.id.videoId}')">Favoritar</button>
+                <button onclick="toggleFavorite('${item.id.videoId}')">⭐</button>
             </div>
         `
       )
@@ -57,7 +57,7 @@ function loadFavorites() {
         (videoId: string) => `
             <div class="video-item">
                 <iframe src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
-                <button onclick="toggleFavorite('${videoId}')">Remover dos Favoritos</button>
+                <button onclick="toggleFavorite('${videoId}')">❌</button>
             </div>
         `
       )

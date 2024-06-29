@@ -59,3 +59,12 @@ body {
   display: flex; /* Alterado para grid para melhor controle */
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
+.favorites {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.favorite-grid {
+  display: flex; /* Alterado para grid para melhor controle */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
