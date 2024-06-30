@@ -19,10 +19,8 @@ u
 [Wireframe favoritos](/wireframe/wireframe_favs.png)
 
 ## Especificações tecnicas
-
-- Ultilizar como sujestão algumas dessas opções para controle de sessão e BFF
-
-  - [Node.js](https://nodejs.org/en/)
+- Ultilizar umas das opções para controle de sessão e BFF
+  - [Node.js](https://nodejs.org/en/) 
   - [Go](https://go.dev/)
   - [Ruby](https://www.ruby-lang.org/pt/)
   - Qualquer outra linguagem back end também será aceita
