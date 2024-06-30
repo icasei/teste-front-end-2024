@@ -41,7 +41,7 @@ function toggleFavorite(videoId: string) {
   updateFavoritesCount();
 }
 
-function updateFavoritesCount() {
+function updateFavoritesCount(length?: any) {
   const favoritesCountElement = document.getElementById("favorites-count");
   const favoritesCount = localStorage.getItem("favoritesCount") || "0";
   if (favoritesCountElement) {
@@ -75,3 +75,25 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   updateFavoritesCount();
 });
+
+// Função para redirecionar para a página de vídeos
+function redirectToVideos(): void {
+  window.location.href = "http://localhost:8081";
+}
+
+// Função para redirecionar para a página de favoritos
+function redirectToFavorites(): void {
+  window.location.href = "http://localhost:8081?view=favorites";
+}
+
+// Adiciona event listeners aos botões de redirecionamento
+document
+  .getElementById("search-button")
+  ?.addEventListener("click", redirectToVideos);
+document
+  .getElementById("favorites-list")
+  ?.addEventListener("click", redirectToFavorites);
+
+// Busca a contagem de favoritos do localStorage ou de uma API backend
+const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+updateFavoritesCount(favorites.length);
