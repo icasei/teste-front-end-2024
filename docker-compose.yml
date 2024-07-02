@@ -4,3 +4,8 @@ services:
     build: ./micro-frontend/mf_videos
     ports:
       - "8081:8081"
+
+  # mf_drawer:
+  #   build: ./micro-frontend/mf_drawer
+  #   ports:
+  #     - "8080:8080"
